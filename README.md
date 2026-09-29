@@ -5,11 +5,7 @@
 <!-- ANIMATED TYPING TEXT: edit the words after "lines=" (use + for spaces) -->
 <!-- LOCATION: change to your city -->
 <br>
-
-
 📍 Tanuku, India
-
-
 <br/>
 <br>
 
@@ -152,10 +148,6 @@
 <a href="https://github.com/YOUR-USERNAME"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
 <br/><br/>
-
-
-<br/>
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=⭐+Thanks+for+visiting+my+profile!;🤝+Let's+build+something+great+together!" alt="Footer typing" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,24&height=140&section=footer" width="100%" alt="Footer banner" />
 
