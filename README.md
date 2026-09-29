@@ -16,7 +16,7 @@
 <br/><br/>
 
 <!-- LOCATION: change to your city -->
-📍 Your City, India
+📍 Tanuku, India
 
 <br/>
 
@@ -189,7 +189,6 @@
 
 <br/><br/>
 
-📧 **ravinavadeep1@gmail.com**
 
 <br/>
 
