@@ -116,10 +116,10 @@
 <h2 align="center">🏆 Achievements & Milestones</h2>
 
 <!-- EDIT: add your real certifications and awards here -->
-- 🎓 Pursuing a B.tech in Computer Science
-- 💻 Building hands-on frontend projects with React and modern CSS
-- 🤖 Exploring AI and machine learning fundamentals
-- 🌱 Growing my open-source and GitHub contribution journey
+-  🎓 Pursuing a B.tech in Computer Science
+-  💻 Building hands-on frontend projects with React and modern CSS
+-  🤖 Exploring AI and machine learning fundamentals
+-  🌱 Growing my open-source and GitHub contribution journey
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
