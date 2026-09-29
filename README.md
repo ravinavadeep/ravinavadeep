@@ -9,9 +9,7 @@
 <br/>
 
 <!-- ANIMATED TYPING TEXT: edit the words after "lines=" (use + for spaces) -->
-<a href="https://github.com/YOUR-USERNAME">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=750&lines=Hi+there!+I'm+Ravi+Navadeep+👋;🎓+Computer+Science+Student;💻+Frontend+Developer;🤖+AI+Enthusiast;🚀+Learning+%26+Building+Every+Day" alt="Typing animation" />
-</a>
+
 
 <br/><br/>
 
