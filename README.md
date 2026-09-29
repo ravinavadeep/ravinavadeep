@@ -2,20 +2,9 @@
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,14,24&height=260&section=header&text=Ravi%20Navadeep&fontSize=60&fontAlignY=38&animation=twinkling&desc=Computer%20Science%20Student%20%7C%20Frontend%20Developer%20%7C%20AI%20Enthusiast&descAlignY=60&descSize=17&fontColor=ffffff" width="100%" alt="Header banner" />
-
-<!-- PROFILE PHOTO: replace YOUR-USERNAME with your GitHub username -->
-<img src="https://github.com/YOUR-USERNAME.png" width="140" height="140" style="border-radius:50%" alt="Profile photo" />
-
-<br/>
-
 <!-- ANIMATED TYPING TEXT: edit the words after "lines=" (use + for spaces) -->
-
-
-<br/><br/>
-
 <!-- LOCATION: change to your city -->
 📍 Tanuku, India
-
 <br/>
 
 <a href="https://www.linkedin.com/in/ravinavadeep/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
