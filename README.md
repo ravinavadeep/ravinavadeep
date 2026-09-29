@@ -1,13 +1,19 @@
+<!-- Animated waving header -->
 <div align="center">
 
-<!-- PROFILE PHOTO: replace with your own image link, or use your GitHub avatar as below -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Ravi%20Navadeep&fontSize=50&fontAlignY=35&animation=fadeIn&desc=Computer%20Science%20Student%20%7C%20Frontend%20Developer%20%7C%20AI%20Enthusiast&descAlignY=55&descSize=16" width="100%" alt="header" />
+
+<!-- PROFILE PHOTO: replace YOUR-USERNAME with your GitHub username -->
 <img src="https://github.com/YOUR-USERNAME.png" width="150" height="150" style="border-radius:50%" alt="Profile photo" />
 
-# Hi, I'm RAVI NAVADEEP 👋
+<!-- Animated typing text -->
+<a href="https://github.com/YOUR-USERNAME">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Hi+there!+I'm+Ravi+Navadeep+👋;🎓+Computer+Science+Student;💻+Frontend+Developer;🤖+AI+Enthusiast;🚀+Learning+%26+Building+Every+Day" alt="Typing animation" />
+</a>
 
-🎓 Computer Science Student | 💻 Frontend Developer | 🤖 AI Enthusiast | 🚀 Learning & Building
+<br/>
 
-📍 TANUKU, INDIA &nbsp;•&nbsp; 🌐 [Portfolio] &nbsp;•&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/ravinavadeep/)
+📍 Your City, Country &nbsp;•&nbsp; 🌐 [Portfolio](https://your-portfolio.com) &nbsp;•&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/ravinavadeep/)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=YOUR-USERNAME&label=Profile%20Views&color=0e75b6&style=flat)
 
@@ -17,6 +23,8 @@
 
 ## 👨‍💻 About Me
 
+<img align="right" width="320" src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" alt="Hi animation" />
+
 - 🎓 I'm a Computer Science student passionate about building useful things for the web.
 - 💻 I love creating clean, responsive user interfaces with modern frontend tools.
 - 🤖 I'm exploring AI and how it can be used to build smarter apps.
@@ -24,33 +32,29 @@
 - 🤝 Open to collaborating on open-source projects and learning together.
 - 💬 Ask me about frontend development, React, or getting started with AI.
 
+<br clear="right"/>
+
 ---
 
 ## 🛠️ Skills
 
-**Languages**
+<div align="center">
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,bootstrap,python,git,github,vscode,figma&perline=11" alt="Skills" />
 
-**Frameworks & Libraries**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+</div>
 
 ---
 
+## 📚 Currently Learning
 
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=F75C7E&center=true&vCenter=true&width=600&lines=⚛️+Advanced+React+%26+Next.js;🟦+TypeScript;🤖+Machine+Learning+%26+Generative+AI;🧠+Data+Structures+%26+Algorithms;🔗+REST+APIs+%26+Backend+Basics" alt="Learning animation" />
+
+</div>
+
+---
 
 ## 🚀 Projects
 
@@ -79,6 +83,10 @@
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=radical&hide_border=true" alt="GitHub stats" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&theme=radical&hide_border=true" alt="Top languages" />
 
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-USERNAME&theme=react-dark&hide_border=true" width="95%" alt="Activity graph" />
+
 </div>
 
 ---
@@ -88,16 +96,15 @@
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ravinavadeep/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ravinavadeep1@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=googlechrome&logoColor=white)](https://your-portfolio.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/your-handle)
 
-</div>
+📧 **ravinavadeep1@gmail.com**
 
----
-
-<div align="center">
+<br/>
 
 ⭐ Thanks for visiting my profile! Feel free to explore my repositories.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" alt="footer" />
 
 </div>
