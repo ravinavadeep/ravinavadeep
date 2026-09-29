@@ -13,7 +13,7 @@
 
 <br/>
 
-📍 Your City, Country &nbsp;•&nbsp; 🌐 [Portfolio](https://your-portfolio.com) &nbsp;•&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/ravinavadeep/)
+📍 TANUKU, INDIA &nbsp;•&nbsp; 🌐 [Portfolio](https://your-portfolio.com) &nbsp;•&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/ravinavadeep/)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=YOUR-USERNAME&label=Profile%20Views&color=0e75b6&style=flat)
 
@@ -46,13 +46,6 @@
 
 ---
 
-## 📚 Currently Learning
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=F75C7E&center=true&vCenter=true&width=600&lines=⚛️+Advanced+React+%26+Next.js;🟦+TypeScript;🤖+Machine+Learning+%26+Generative+AI;🧠+Data+Structures+%26+Algorithms;🔗+REST+APIs+%26+Backend+Basics" alt="Learning animation" />
-
-</div>
 
 ---
 
@@ -66,15 +59,6 @@
 
 ---
 
-## 🎯 Current Goals
-
-- [ ] Build and deploy a personal portfolio website
-- [ ] Complete 3 full-stack projects this year
-- [ ] Contribute to open-source projects
-- [ ] Learn TypeScript and Next.js in depth
-- [ ] Land an internship in frontend or AI development
-
----
 
 ## 📊 GitHub Stats
 
@@ -99,7 +83,6 @@
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ravinavadeep1@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=googlechrome&logoColor=white)](https://your-portfolio.com)
 
-📧 **ravinavadeep1@gmail.com**
 
 <br/>
 
