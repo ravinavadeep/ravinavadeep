@@ -4,7 +4,10 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,14,24&height=260&section=header&text=Ravi%20Navadeep&fontSize=60&fontAlignY=38&animation=twinkling&desc=Computer%20Science%20Student%20%7C%20Frontend%20Developer%20%7C%20AI%20Enthusiast&descAlignY=60&descSize=17&fontColor=ffffff" width="100%" alt="Header banner" />
 <!-- ANIMATED TYPING TEXT: edit the words after "lines=" (use + for spaces) -->
 <!-- LOCATION: change to your city -->
+<br></br>
 📍 Tanuku, India
+
+
 <br/>
 
 <a href="https://www.linkedin.com/in/ravinavadeep/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -29,7 +32,7 @@
 
 <div align="center">
   <!-- ANIMATED ABOUT TEXT: edit the sentences after "lines=" -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=3500&pause=1200&color=00F7A7&center=true&vCenter=true&repeat=true&width=800&height=60&lines=🎓+I'm+a+Computer+Science+student+passionate+about+the+web;💻+I+build+clean%2C+responsive+user+interfaces;🤖+I'm+exploring+AI+to+build+smarter+applications;🌱+I'm+always+learning+something+new;🤝+Open+to+collaboration+and+open-source+projects" alt="About me animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=3500&pause=1200&color=00F7A7&center=true&vCenter=true&repeat=true&width=800&height=60&lines=🎓+I'm+a+Computer+Science+student+passionate+about+the+web;💻+I+build+clean%2C+responsive+user+interfaces;🤖+I'm+exploring+AI+to+build+smarter+applications;🌱+I'm+always+learning+something+new;🤝+Open+to+collaboration+and+open-source+projects" 
 </div>
 
 <br/>
@@ -114,24 +117,12 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&theme=radical&hide_border=true" alt="Most used languages" />
-
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=YOUR-USERNAME&theme=radical&hide_border=true" alt="Streak stats" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-USERNAME&theme=react-dark&hide_border=true&area=true" width="95%" alt="Activity graph" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR-USERNAME&theme=radical&no-frame=true&row=1&column=6" alt="Trophies" />
+<img src="https://streak-stats.demolab.com/?user=YOUR-USERNAME&theme=radical&hide_border=true" alt="Streak stats" 
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
 <!-- ===================== ACHIEVEMENTS ===================== -->
 <h2 align="center">🏆 Achievements & Milestones</h2>
@@ -144,13 +135,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
-<!-- ===================== CURRENTLY LEARNING ===================== -->
-<h2 align="center">📚 Currently Learning</h2>
-
-<div align="center">
-  <!-- EDIT the learning topics after "lines=" -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=F75C7E&center=true&vCenter=true&width=600&lines=⚛️+Advanced+React+%26+Next.js;🟦+TypeScript;🤖+Machine+Learning+%26+Generative+AI;🧠+Data+Structures+%26+Algorithms" alt="Learning animation" />
-</div>
+<!-- ===================== CURRENTLY LEARNING ===================== 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
