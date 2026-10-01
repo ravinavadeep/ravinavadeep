@@ -32,13 +32,43 @@ I'm a Computer Science student and frontend developer who likes turning ideas in
 </div>
 
 ## Featured projects
+## 🚀 Featured Projects
 
-| Project | What it does | Built with | Links |
-| --- | --- | --- | --- |
-| **Portfolio website** | Responsive personal portfolio with a particle network, animated gradients and a theme toggle | HTML, CSS, JavaScript | [Code](https://github.com/USERNAME/portfolio) |
-| **Weather app** | Shows live weather for any city using a weather API | HTML, CSS, JavaScript, API | [Code](https://github.com/USERNAME/weather-app) |
-| **To-do app** | Add, complete and remove tasks in a clean interface | HTML, CSS, JavaScript | [Code](https://github.com/USERNAME/todo-app) |
-| **AI project** | A small AI-powered tool exploring everyday problem solving | Python, APIs | [Code](https://github.com/USERNAME/ai-project) |
+<div align="center">
+
+<a href="https://github.com/YOUR_USERNAME/portfolio">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=portfolio&theme=dark&hide_border=true&bg_color=0D1117&title_color=00C6FF&icon_color=7B2FF7&text_color=FFFFFF" />
+</a>
+
+<a href="https://github.com/YOUR_USERNAME/weather-app">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=weather-app&theme=dark&hide_border=true&bg_color=0D1117&title_color=00C6FF&icon_color=7B2FF7&text_color=FFFFFF" />
+</a>
+
+<br/>
+
+<a href="https://github.com/YOUR_USERNAME/todo-app">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=todo-app&theme=dark&hide_border=true&bg_color=0D1117&title_color=00C6FF&icon_color=7B2FF7&text_color=FFFFFF" />
+</a>
+
+<a href="https://github.com/YOUR_USERNAME/python-learning">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=python-learning&theme=dark&hide_border=true&bg_color=0D1117&title_color=00C6FF&icon_color=7B2FF7&text_color=FFFFFF" />
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=7B2FF7&center=true&vCenter=true&width=700&height=45&lines=Building+projects+one+commit+at+a+time;Learning+%E2%86%92+Building+%E2%86%92+Improving;More+projects+coming+soon..." />
+
+<br/><br/>
+
+<a href="https://github.com/YOUR_USERNAME?tab=repositories">
+<img src="https://img.shields.io/badge/%E2%9A%A1%20EXPLORE%20ALL%20PROJECTS-7B2FF7?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</div>
 
 ## GitHub stats
 
