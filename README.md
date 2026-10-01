@@ -138,7 +138,7 @@
 
 <div align="center">
   <!-- EDIT the learning topics after "lines=" -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=F75C7E&center=true&vCenter=true&width=600&lines=⚛️+Advanced+React+%26+Next.js;🟦+TypeScript;🤖+Machine+Learning+%26+Generative+AI;🧠+Data+Structures+%26+Algorithms" alt="python with Full stack" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=F75C7E&center=true&vCenter=true&width=600&lines=⚛️+Advanced+React+%26+Next.js;🟦+TypeScript;🤖+Machine+Learning+%26+Generative+AI;🧠+Data+Structures+%26+Algorithms" alt="https://www.udemy.com/certificate/UC-907afde1-b137-4f27-b1b6-d5559c21cf2b/" />
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
