@@ -112,14 +112,28 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&theme=radical&hide_border=true" alt="Most used languages" />
+  <img
+    height="180"
+    src="https://github-readme-stats.vercel.app/api?username=ravinavadeep&show_icons=true&theme=radical&hide_border=true&count_private=true"
+    alt="GitHub Stats"
+  />
 
-<br/><br/>
+  <img
+    height="180"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravinavadeep&layout=compact&theme=radical&hide_border=true"
+    alt="Most Used Languages"
+  />
 
-<img src="https://streak-stats.demolab.com/?user=YOUR-USERNAME&theme=radical&hide_border=true" alt="Streak stats" />
+  <br/><br/>
 
-<br/><br/>
+  <img
+    src="https://streak-stats.demolab.com/?user=ravinavadeep&theme=radical&hide_border=true"
+    alt="GitHub Streak"
+  />
+
+</div>
+
+<!-- ===================== END GITHUB STATS ===================== -->
 
 
 <!-- ===================== ACHIEVEMENTS ===================== -->
