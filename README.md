@@ -170,7 +170,6 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=⭐+Thanks+for+visiting+my+profile!;🤝+Let's+build+something+great+together!"  />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,24&height=140&section=footer" width="100%"  />
 
