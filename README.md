@@ -27,7 +27,7 @@
 
 <div align="center">
   <!-- ANIMATED ABOUT TEXT: edit the sentences after "lines=" -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=3500&pause=1200&color=00F7A7&center=true&vCenter=true&repeat=true&width=800&height=60&lines=🎓+I'm+a+Computer+Science+student+passionate+about+the+web;💻+I+build+clean%2C+responsive+user+interfaces;🤖+I'm+exploring+AI+to+build+smarter+applications;🌱+I'm+always+learning+something+new;🤝+Open+to+collaboration+and+open-source+projects"/>
+
 </div>
 
 <br/>
