@@ -31,12 +31,12 @@ I'm a Computer Science student and frontend developer who likes turning ideas in
 <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,bootstrap,py,java,cpp,git,github,figma,vercel,vscode&theme=dark&perline=14" alt="Tech stack"/>
 </div>
 
-## Featured projects
+
 ## 🚀 Featured Projects
 
 <div align="center">
 
-<a href="https://github.com/YOUR_USERNAME/portfolio">
+<a href="https://github.com/ravinavadeep/ravinavadeepprofile/portfolio">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=portfolio&theme=dark&hide_border=true&bg_color=0D1117&title_color=00C6FF&icon_color=7B2FF7&text_color=FFFFFF" />
 </a>
 
