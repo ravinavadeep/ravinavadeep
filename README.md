@@ -34,27 +34,20 @@ I'm a Computer Science student and frontend developer who likes turning ideas in
 
 ## 🚀 Featured Projects
 
-<div align="center">
+<p align="center">
+  <a href="https://github.com/ravinavadeep/portfolio">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ravinavadeep&repo=portfolio&theme=dark&hide_border=true&bg_color=0D1117&title_color=00C6FF&icon_color=7B2FF7&text_color=FFFFFF" />
+  </a>
+  <a href="https://github.com/ravinavadeep/weather-app">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ravinavadeep&repo=weather-app&theme=dark&hide_border=true&bg_color=0D1117&title_color=00C6FF&icon_color=7B2FF7&text_color=FFFFFF" />
+  </a>
+</p>
 
-<a href="https://github.com/ravinavadeep/ravinavadeepprofile/portfolio">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=portfolio&theme=dark&hide_border=true&bg_color=0D1117&title_color=00C6FF&icon_color=7B2FF7&text_color=FFFFFF" />
-</a>
-
-<a href="https://github.com/YOUR_USERNAME/weather-app">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=weather-app&theme=dark&hide_border=true&bg_color=0D1117&title_color=00C6FF&icon_color=7B2FF7&text_color=FFFFFF" />
-</a>
-
-<br/>
-
-<a href="https://github.com/YOUR_USERNAME/todo-app">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=todo-app&theme=dark&hide_border=true&bg_color=0D1117&title_color=00C6FF&icon_color=7B2FF7&text_color=FFFFFF" />
-</a>
-
-<a href="https://github.com/YOUR_USERNAME/python-learning">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=python-learning&theme=dark&hide_border=true&bg_color=0D1117&title_color=00C6FF&icon_color=7B2FF7&text_color=FFFFFF" />
-</a>
-
-</div>
+<p align="center">
+  <a href="https://github.com/ravinavadeep/todo-app">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ravinavadeep&repo=todo-app&theme=dark&hide_border=true&bg_color=0D1117&title_color=00C6FF&icon_color=7B2FF7&text_color=FFFFFF" />
+  </a>
+</p>
 
 <br/>
 
