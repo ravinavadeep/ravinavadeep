@@ -121,10 +121,6 @@
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-USERNAME&theme=react-dark&hide_border=true&area=true" width="95%" />
-
-<br/><br/>
-
 
 <!-- ===================== ACHIEVEMENTS ===================== -->
 <h2 align="center">🏆 Achievements & Milestones</h2>
