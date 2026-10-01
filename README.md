@@ -1,102 +1,192 @@
-import random, os
-random.seed(7)
-os.makedirs("assets", exist_ok=True)
+<div align="center">
 
-def waves(y, h, fill, op, dur, amp):
-    d = f"M0 {amp} Q150 0 300 {amp} T600 {amp}"
-    for x in range(900, 2500, 300):
-        d += f" T{x} {amp}"
-    d += f" V{h} H0 Z"
-    return f'''<g transform="translate(0,{y})"><path d="{d}" fill="{fill}" fill-opacity="{op}">
-<animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="{dur}s" repeatCount="indefinite"/></path></g>'''
+<img src="./assets/hero.svg" width="100%" alt="Ravi Navadeep banner" />
 
-def grad(id_, cols, dur=14):
-    n = len(cols)
-    stops = ""
-    for i in range(n):
-        vals = ";".join(cols[(i+k) % n] for k in range(n)) + ";" + cols[i]
-        stops += f'<stop offset="{i/(n-1):.2f}" stop-color="{cols[i]}"><animate attributeName="stop-color" values="{vals}" dur="{dur}s" repeatCount="indefinite"/></stop>'
-    return f'<linearGradient id="{id_}" x1="0" y1="0" x2="1" y2="1">{stops}</linearGradient>'
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00C6FF&center=true&vCenter=true&width=600&lines=Frontend+Developer;React+%26+Tailwind+Enthusiast;AI+Explorer;Open+Source+Learner" alt="Typing animation" />
 
-# ---------- HERO ----------
-W, H = 1200, 340
-bubbles = ""
-for i in range(34):
-    x = random.randint(0, W); r = random.uniform(2, 9)
-    y0 = random.randint(200, H); dur = random.uniform(6, 14); dl = random.uniform(0, 8)
-    bubbles += f'<circle cx="{x}" cy="{y0}" r="{r:.1f}" fill="#fff" fill-opacity="0.25"><animate attributeName="cy" from="{H+20}" to="-20" dur="{dur:.1f}s" begin="-{dl:.1f}s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="{dur:.1f}s" begin="-{dl:.1f}s" repeatCount="indefinite"/></circle>'
-stars = ""
-for i in range(40):
-    x = random.randint(0, W); y = random.randint(0, 220); d = random.uniform(1.5, 4)
-    stars += f'<circle cx="{x}" cy="{y}" r="1.4" fill="#fff"><animate attributeName="opacity" values="0.1;1;0.1" dur="{d:.1f}s" begin="-{random.uniform(0,4):.1f}s" repeatCount="indefinite"/></circle>'
+<br/><br/>
 
-hero = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="100%">
-<defs>
-{grad("bg", ["#1e3c72","#6a11cb","#ff0080","#00c6ff"], 16)}
-<filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<clipPath id="r"><rect width="{W}" height="{H}" rx="24"/></clipPath>
-</defs>
-<g clip-path="url(#r)">
-<rect width="{W}" height="{H}" fill="url(#bg)"/>
-{stars}
-{bubbles}
-<circle cx="980" cy="90" r="120" fill="#fff" fill-opacity="0.06"><animate attributeName="r" values="110;140;110" dur="7s" repeatCount="indefinite"/></circle>
-<circle cx="180" cy="230" r="90" fill="#fff" fill-opacity="0.05"><animate attributeName="r" values="80;110;80" dur="9s" repeatCount="indefinite"/></circle>
-{waves(255, 120, "#ffffff", 0.12, 9, 30)}
-{waves(275, 120, "#ffffff", 0.18, 6, 24)}
-{waves(295, 120, "#0b1026", 0.55, 11, 20)}
-<g font-family="'Segoe UI', Arial, Helvetica, sans-serif" text-anchor="middle" fill="#fff">
-<text x="600" y="150" font-size="76" font-weight="800" filter="url(#glow)" letter-spacing="2">Ravi Navadeep
-<animate attributeName="opacity" from="0" to="1" dur="1.6s" fill="freeze"/>
-<animateTransform attributeName="transform" type="translate" from="0 30" to="0 0" dur="1.2s" fill="freeze"/></text>
-<text x="600" y="205" font-size="24" fill-opacity="0.95">Computer Science Student  •  Frontend Developer  •  AI Enthusiast
-<animate attributeName="opacity" from="0" to="1" begin="1s" dur="1.5s" fill="freeze"/></text>
-<text x="600" y="240" font-size="18" fill-opacity="0.8">📍 Tanuku, India
-<animate attributeName="opacity" from="0" to="0.85" begin="1.8s" dur="1.5s" fill="freeze"/></text>
-</g>
-</g></svg>'''
-open("assets/hero.svg", "w", encoding="utf-8").write(hero)
+<a href="https://www.linkedin.com/in/ravinavadeep/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:ravinavadeep1@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/YOUR-USERNAME"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
-# ---------- SECTION BANNERS ----------
-sections = [
- ("about", "👨‍💻  About Me", ["#11998e","#38ef7d","#2193b0"]),
- ("stack", "🛠️  Tech Stack", ["#fc4a1a","#f7b733","#ff512f"]),
- ("projects", "🚀  Featured Projects", ["#4776e6","#8e54e9","#00c6ff"]),
- ("stats", "📊  GitHub Stats", ["#f953c6","#b91d73","#7f00ff"]),
- ("achieve", "🏆  Achievements &amp; Milestones", ["#f7971e","#ffd200","#ff5e62"]),
- ("learning", "📚  Currently Learning", ["#00c6ff","#0072ff","#7b2ff7"]),
- ("collab", "🤝  Open to Collaborate On", ["#43cea2","#185a9d","#00c9ff"]),
- ("connect", "📫  Connect With Me", ["#ee0979","#ff6a00","#7b2ff7"]),
-]
-for key, title, cols in sections:
-    w, h = 1200, 90
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="100%">
-<defs>
-{grad("g", cols, 8)}
-<linearGradient id="s" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
-<clipPath id="c"><rect width="{w}" height="{h}" rx="18"/></clipPath>
-</defs>
-<g clip-path="url(#c)">
-<rect width="{w}" height="{h}" fill="url(#g)"/>
-<rect y="0" width="220" height="{h}" fill="url(#s)" transform="skewX(-20)"><animate attributeName="x" from="-400" to="1500" dur="3.8s" repeatCount="indefinite"/></rect>
-{waves(60, 60, "#ffffff", 0.14, 7, 12)}
-<text x="600" y="57" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="700" fill="#fff">{title}
-<animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/></text>
-</g></svg>'''
-    open(f"assets/{key}.svg", "w", encoding="utf-8").write(svg)
+<br/><br/>
 
-# ---------- FOOTER ----------
-fw, fh = 1200, 160
-footer = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {fw} {fh}" width="100%">
-<defs>{grad("f", ["#1e3c72","#6a11cb","#ff0080","#00c6ff"], 16)}
-<clipPath id="c"><rect width="{fw}" height="{fh}" rx="24"/></clipPath></defs>
-<g clip-path="url(#c)">
-<rect width="{fw}" height="{fh}" fill="url(#f)"/>
-{waves(40, 140, "#ffffff", 0.14, 10, 26)}
-{waves(70, 140, "#ffffff", 0.2, 7, 22)}
-{waves(100, 140, "#0b1026", 0.5, 12, 18)}
-<text x="600" y="62" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="600" fill="#fff">Thanks for visiting ✨  Let's build something great together
-<animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite"/></text>
-</g></svg>'''
-open("assets/footer.svg", "w", encoding="utf-8").write(footer)
-print("Done! SVGs created in ./assets")
+<img src="https://komarev.com/ghpvc/?username=YOUR-USERNAME&label=Profile%20Views&color=6a11cb&style=for-the-badge" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/YOUR-USERNAME?style=for-the-badge&logo=github&color=ff0080" alt="Followers" />
+
+</div>
+
+<br/>
+
+<!-- ===================== ABOUT ===================== -->
+<img src="./assets/about.svg" width="100%" alt="About Me" />
+
+<div align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="360" alt="Coding animation" />
+</div>
+
+<br/>
+
+- 🎯 **Career goal:** Land a frontend or AI development internship and grow into a full-time developer role
+- 💡 **Interests:** Web Development, Artificial Intelligence, Open Source
+- 🌱 **Currently focused on:** Building real-world projects and strengthening my problem-solving skills
+- 💬 **Ask me about:** Frontend development, React, and getting started with AI
+- ⚡ **Fun fact:** I turn ideas into working projects one commit at a time
+
+<br/>
+
+<!-- ===================== TECH STACK ===================== -->
+<img src="./assets/stack.svg" width="100%" alt="Tech Stack" />
+
+<div align="center">
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,bootstrap,python,git,github,vscode,figma,vercel&perline=12" alt="Tech icons" />
+
+<br/><br/>
+
+**Languages**
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+
+**Frontend**
+
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+
+**Tools & Platforms**
+
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+
+</div>
+
+<br/>
+
+<!-- ===================== PROJECTS ===================== -->
+<img src="./assets/projects.svg" width="100%" alt="Featured Projects" />
+
+<br/>
+
+<table align="center">
+  <tr>
+    <td width="33%" valign="top">
+      <h3>🌐 Portfolio Website</h3>
+      <p>A responsive personal portfolio showcasing my projects, skills, and contact details.</p>
+      <p><b>Tech:</b> HTML, CSS, JavaScript</p>
+      <a href="https://github.com/YOUR-USERNAME/portfolio">💻 Code</a> •
+      <a href="https://your-portfolio.com">🔗 Live</a>
+    </td>
+    <td width="33%" valign="top">
+      <h3>⚛️ React Web App</h3>
+      <p>A modern single-page application with reusable components and clean UI design.</p>
+      <p><b>Tech:</b> React, Tailwind CSS</p>
+      <a href="https://github.com/YOUR-USERNAME/react-app">💻 Code</a> •
+      <a href="https://your-demo-link.com">🔗 Live</a>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🤖 AI Experiment</h3>
+      <p>A small AI-powered tool built to explore how machine learning can solve everyday problems.</p>
+      <p><b>Tech:</b> Python, APIs</p>
+      <a href="https://github.com/YOUR-USERNAME/ai-project">💻 Code</a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- ===================== GITHUB STATS ===================== -->
+<img src="./assets/stats.svg" width="100%" alt="GitHub Stats" />
+
+<div align="center">
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=tokyonight&hide_border=true" height="170" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&theme=tokyonight&hide_border=true" height="170" alt="Top languages" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=YOUR-USERNAME&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-USERNAME&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity graph" />
+
+<br/>
+
+<!-- Contribution snake (needs the GitHub Action in .github/workflows/snake.yml) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-USERNAME/output/github-snake-dark.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-USERNAME/output/github-snake.svg" width="100%" />
+</picture>
+
+</div>
+
+<br/>
+
+<!-- ===================== ACHIEVEMENTS ===================== -->
+<img src="./assets/achieve.svg" width="100%" alt="Achievements" />
+
+<br/>
+
+- 🎓 Pursuing a degree in Computer Science
+- 💻 Building hands-on frontend projects with React and modern CSS
+- 🤖 Exploring AI and machine learning fundamentals
+- 🌱 Growing my open-source and GitHub contribution journey
+
+<br/>
+
+<!-- ===================== LEARNING ===================== -->
+<img src="./assets/learning.svg" width="100%" alt="Currently Learning" />
+
+<div align="center">
+
+<br/>
+
+<img src="https://img.shields.io/badge/React-in%20progress-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+<img src="https://img.shields.io/badge/Machine%20Learning-basics-8957e5?style=for-the-badge&logo=python&logoColor=white" alt="ML" />
+<img src="https://img.shields.io/badge/DSA-practicing-F05032?style=for-the-badge&logo=leetcode&logoColor=white" alt="DSA" />
+
+</div>
+
+<br/>
+
+<!-- ===================== COLLAB ===================== -->
+<img src="./assets/collab.svg" width="100%" alt="Open to Collaborate" />
+
+<div align="center">
+
+<br/>
+
+🌍 Open-source projects &nbsp;•&nbsp; 🚀 Startup ideas &nbsp;•&nbsp; 🔬 Research projects &nbsp;•&nbsp; 💼 Internship opportunities
+
+</div>
+
+<br/>
+
+<!-- ===================== CONNECT ===================== -->
+<img src="./assets/connect.svg" width="100%" alt="Connect With Me" />
+
+<div align="center">
+
+<br/>
+
+<a href="https://www.linkedin.com/in/ravinavadeep/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:ravinavadeep1@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+<a href="https://github.com/YOUR-USERNAME"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+
+</div>
+
+<br/>
+
+<img src="./assets/footer.svg" width="100%" alt="Footer" />
